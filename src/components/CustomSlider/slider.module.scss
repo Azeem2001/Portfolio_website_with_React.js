@@ -1,0 +1,48 @@
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    // scrollbar-color: blue orange;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 2px;
+    height: 5px;
+  }
+    
+  *::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-radius: 50%;
+    // border: 3px solid orange;
+  }
+
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: scroll;
+
+
+   .children{
+  
+    padding: 2rem 0 2rem 0;
+   
+       
+        img{
+              height: 6rem;
+            margin-left: 1.3rem;
+       
+            margin-right:1rem;  
+            
+        }
+   }
+
+}
+.btn{
+    background:#EFC100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 0 3.5rem 0;
+
+}

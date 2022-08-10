@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+.container {
+    width: 100%;
+    background: #25292b;
+
+    .Item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+        // border: 1px solid white;
+       
+        .child_1,
+        .child_2 {
+        
+            color: rgba(255, 255, 255, 1);
+            padding: 3rem 2rem;
+            width: 50%;
+            ;
+
+            h1 {
+                font-size: 55px;
+                font-family: "Orbitron", sans-serif;
+            }
+
+            .sub_container {
+                display: flex;
+                align-items: center;
+                padding: 4rem 0 4rem 0;
+                // height: 40vh;
+                // position:absolute;        
+                
+                img {
+                    width: 13%;
+                    position: relative;
+                    bottom: 4rem;
+                }
+
+                .children {
+                    width: 100%;
+                    line-height: 2px;
+                    margin-top: 0.8rem;
+                    margin-left: 1rem;
+                        
+                    h4 {
+                        font-size: 18px;
+                        font-size: 400;
+                    }
+
+                    h5 {
+                        font-size: 16px;
+                        font-weight: 200;
+                    }
+
+                    p {
+                        padding-top: 0.5rem;
+                        color: grey;
+                    }
+                }
+                
+
+            }
+
+            h6 {
+                font-family: 'Poppins', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 40px;
+                text-align: justify;
+                position: relative;
+                top:3rem;
+                right: 6rem;
+                            }
+            
+        }
+
+        .child_2 {
+            padding-top: 7.5rem;
+           
+        }
+        
+    }
+
+    .foot {
+        width: 100%;
+        padding: 3rem;
+        background:rgba(239, 193, 0, 1);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        h3 {
+            font-size: 80px;
+            text-align: center;
+            font-weight: 700;
+            color: #25292b;
+            font-family: "Orbitron", sans-serif;
+
+         
+        }
+    }
+}
