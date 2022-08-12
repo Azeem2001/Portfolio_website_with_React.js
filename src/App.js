@@ -1,7 +1,7 @@
 import "./App.css"
 import Home from './components/home/Home'
 import Info from "./components/Info/Info";
-import Slider from "./components/CustomSlider/Slider";
+import Slider from "./components/CustomSlider/Slider"; 
 import Believe from "./components/Believe/Believe";
 import Icon from "./components/MultiplelanguageIcon/Icon";
 import Education from "./components/education/Education";

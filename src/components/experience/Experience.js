@@ -24,7 +24,7 @@ const Experience = () => {
             subheading: "RIGHTBOUND",
             Span: "2019 - 2020",
             paragraph:
-                "Responsible for developing, designing, modeling and documenting the software solutions. Ability to develop enterprise level solutions from scratch.",
+                "Responsible for developing, designing, modeling and documenting the software solutions. Ability to develop.",
         },
         {
             image: "./images/Group 40.png",
@@ -43,7 +43,7 @@ const Experience = () => {
             subheading: "MINTDROPZ",
             Span: "2020 - 2021",
             paragraph:
-                "Build full stack applications for both web and mobile. Deliver clean, readable and efficient solutions following the best practices and standards.",
+                "Build full stack applications for both web and mobile. Deliver clean, readable and efficient solutions following.",
         },
         {
             image: "./images/Group 37.png",
@@ -113,9 +113,9 @@ const Experience = () => {
                 </div>
 
             </div>
-            <div className={style.foot}>
+            {/* <div className={style.foot}>
                 <h3>WHAT MY CLIENT SAY ?</h3>
-            </div>
+            </div> */}
         </div>
 
     </>;

@@ -19,7 +19,7 @@ const Education = () => {
         },
         {
             image: "./images/Logo1.png",
-            heading: "Aligarh institute of technology pakistan",
+            heading: "ALIGARH INSTITUTE OF TECHNOLOGY PAKISTAN",
             subheading: "High School Diploma, Electrical and Electronics Engineering",
             Span: "2016 - 2020"
 

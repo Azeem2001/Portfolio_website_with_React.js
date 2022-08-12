@@ -10,7 +10,7 @@ const CustomNav = () => {
           <img src={logo} alt="" />
         </div>
         <div className={style.right_side}>
-          <ul>
+          {/* <ul>
             <li>
               Home
             </li>
@@ -18,12 +18,12 @@ const CustomNav = () => {
               About Me
             </li>
             <li>
-                Portfolio
+              Portfolio
             </li>
             <li>
               Contact Me
             </li>
-          </ul>
+          </ul> */}
         </div>
 
       </div>
