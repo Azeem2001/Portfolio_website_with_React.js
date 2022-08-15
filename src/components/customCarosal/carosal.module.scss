@@ -74,14 +74,20 @@
 
   .container{ 
 
-    padding: 2rem;
+    padding: 0;
+    margin-top: 1rem;
     .item{
       width: 100%;
       padding: 3rem;
       flex-direction: column;
       justify-content:space-between;
-      height: 98vh !important;
-
+      // height: 52vh !important;
+      .child1{
+        padding: 2rem 0 2rem 0;
+      }
+      .child2{
+        padding: 2rem 0 2rem 0;
+      }
    }
   }
 }
